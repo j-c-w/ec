@@ -46,7 +46,7 @@ def _scanl1(f):
 def _succ(x): return x+1
 def _pred(x): return x-1
 def _double(x): return x*2
-def _half(x): return int(x/2)
+def _half(x): return x//2
 def _negate(x): return -x
 def _square(x): return x**2
 def _triple(x): return x*3
